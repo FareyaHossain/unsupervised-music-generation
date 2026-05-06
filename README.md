@@ -1,7 +1,7 @@
 # unsupervised-music-generation
 Unsupervised Music Generation
 
-Project Overview
+# Project Overview
 
 This project explores multiple deep learning approaches for symbolic music generation using MIDI data. It compares traditional baselines with modern neural architectures and further improves generation quality using reinforcement learning with human-inspired rewards.
 
