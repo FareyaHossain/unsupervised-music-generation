@@ -37,32 +37,32 @@ Rhythm diversity.
 Repetition control.
 Improves musical quality and coherence.
 
-Dataset
-Dataset used: MAESTRO v3.0.0 MIDI
+# Dataset
+MAESTRO v3.0.0 MIDI. 
 Preprocessing steps:
 MIDI → Piano Roll (binary).
 Window slicing (100 timesteps).
 Filtering low-activity samples.
 
-Workflow
+# Workflow
 1. Data Preprocessing
 Extract MIDI files.
 Convert to piano roll representation.
 Create training dataset.
 
-Model Training
+# Model Training
 Model	Input Shape	Output.
 AE	(100, 128)	Reconstruction.
 VAE	(100, 128)	Generated samples.
 Transformer	(30, 128)	Next-step prediction.
 
-Music Generation
+# Music Generation
 Convert predicted piano rolls → MIDI.
 Save .mid files for listening.
 
 # Evaluation Metrics
 
-Objective Metrics.
+# Objective Metrics.
 Pitch Distribution Distance.
 Rhythm Diversity.
 Repetition Ratio.
