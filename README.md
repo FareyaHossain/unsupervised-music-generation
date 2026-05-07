@@ -96,3 +96,6 @@ Try diffusion models for music generation.
 
 
 Run the notebook directly in Google Colab for full execution.
+# MIDI FILES 
+https://drive.google.com/drive/folders/1EfKRQ8wu2t6Lt7-BSBXOfykt4G5sAbcQ?usp=sharing
+
