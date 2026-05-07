@@ -90,8 +90,9 @@ Try diffusion models for music generation.
 1) Open the notebook.
 2) Run all cells step by step.
 
-Notes:
-Project developed using Google Colab.
+# Notes:
+1) Project developed using Google Colab.
+2) In master branch i added the generated midi files.
 
 
 Run the notebook directly in Google Colab for full execution.
